@@ -42,7 +42,7 @@ export default function Searchbox({updateInfo}){
                 updateInfo(newInfo)
             }
          catch (err) {
-            window.alert("City not existed in API")
+            console.log("city not exist");
         }
     }
    
